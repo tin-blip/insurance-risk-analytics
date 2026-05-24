@@ -31,4 +31,5 @@ jobs:
         flake8 .
 
     - name: Run tests
-      run: pytest --suppress-no-test-exit-code
+      run: |
+        pytest
