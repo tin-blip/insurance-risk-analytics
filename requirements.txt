@@ -10,3 +10,4 @@ jupyter
 dvc
 pytest
 flake8
+pytest-custom_exit_code
