@@ -2,6 +2,7 @@ pycache/
 *.pyc
 .env
 venv/
-data/
+data/*.txt
+data/*.csv
 .dvc/cache/
 .ipynb_checkpoints/
