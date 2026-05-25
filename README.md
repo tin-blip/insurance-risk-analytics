@@ -45,3 +45,31 @@ Retrieve tracked datasets:
 ### DVC Remote Storage
 
 A local DVC remote storage directory was configured to ensure reproducibility and proper dataset management across project versions.
+
+
+## Dataset Features
+
+| Feature          | Description                        |
+| ---------------- | ---------------------------------- |
+| TotalPremium     | Total premium paid by policyholder |
+| TotalClaims      | Total insurance claims             |
+| Province         | Geographic province                |
+| PostalCode       | Customer postal code               |
+| Gender           | Customer gender                    |
+| TransactionMonth | Policy transaction month           |
+
+
+## Project Setup
+
+Clone repository:
+
+**git clone `<repository-url>`**
+Create virtual environment:
+
+**python -m venv venv**
+Activate environment:
+
+**venv\Scripts\activate**
+Install dependencies:
+
+**pip install -r requirements.txt**
