@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 def plot_claim_distribution(df):
     """
     Plot claim distribution histogram.

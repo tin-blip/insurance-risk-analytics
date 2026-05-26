@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def load_data(path):
     """
     Load insurance dataset safely.
