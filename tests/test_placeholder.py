@@ -5,4 +5,3 @@ def test_calculate_margin():
     margin = premium - claims
 
     assert margin == 600
-
